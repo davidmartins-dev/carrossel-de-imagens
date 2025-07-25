@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  padding: 0 20px;
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+main {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+h1 {
+  margin-bottom: 2rem;
+}
+
+p {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+
+.slides {
+  display: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.prev, 
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 74%;
+  width: auto;
+  margin-top: -22px;
+  padding: 1rem;
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 1.15rem;
+  transition: 0.6s ease;
+  border-radius: 0 3px 0 3px;
+  user-select: none;
+}
+
+.prev {
+  left: 20px;
+}
+
+.next {
+  right: 20px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.dot {
+  cursor: pointer;
+  width: 15px;
+  height: 15px;
+  margin: 0 2px;
+  background-color: #BBBBBB;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, 
+.dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@media screen and (min-width: 360px) {
+
+  .prev,
+  .next {
+    top: 72%;
+  }
+  
+}
+
+@media screen and (min-width: 412px) {
+
+  .prev,
+  .next {
+    top: 70%;
+  }
+  
+}
+
+@media screen and (min-width: 430px) {
+
+  .prev,
+  .next {
+    top: 67%;
+  }
+  
+}
+
+@media screen and (min-width: 540px) {
+
+  .prev,
+  .next {
+    top: 65%;
+  }
+  
+}
+
+@media screen and (min-width: 540px) {
+
+  .prev,
+  .next {
+    top: 62%;
+  }
+  
+}
+
+@media screen and (min-width: 1024px) {
+
+  .prev,
+  .next {
+    top: 58%;
+  }
+  
+}
