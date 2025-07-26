@@ -25,7 +25,7 @@ Para testar este projeto localmente:
 
 1.  **Clone o repositório:**
     ```bash
-    git clone [https://github.com/davidsilva-dev-tech/carrossel-de-imagens.git](https://github.com/davidsilva-dev-tech/carrossel-de-imagens.git)
+    git clone [https://github.com/davidmartins-dev/carrossel-de-imagens.git](https://github.com/davidmartins-dev/carrossel-de-imagens.git)
     ```
 2.  **Navegue até a pasta do projeto:**
     ```bash
@@ -40,11 +40,11 @@ Para testar este projeto localmente:
 
 Você pode ver uma versão funcionando deste projeto aqui:
 
-[https://davidsilva-dev-tech.github.io/carrossel-de-imagens/]
+[https://davidmartins-dev.github.io/carrossel-de-imagens/]
 
 ---
 
 ## Meu Contato
 
-* **GitHub:** (https://github.com/davidsilva-dev-tech/)
-* **Email:** davidsilva.dev.tech@gmail.com
+* **GitHub:** (https://github.com/davidmartins-dev/)
+* **Email:** davidmartins-dev@hotmail.com
